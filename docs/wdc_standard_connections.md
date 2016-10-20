@@ -81,6 +81,20 @@ schemaCallback([magPlaceTable, timeUrlTable], [connectionObject]);
 
 You can include multiple connection objects in the array.
 
+## Use your standard connections in the simulator
+
+To use a standard connection in the simulator, complete the following steps:
+
+1. Start the simulator.
+
+1. Enter the URL for your connector in the **Connector URL** field.
+
+1. Click the **Show Advanced** button to display the **Standard Connections** interface.
+
+1. Click the **Start Interactive Phase** button.
+
+1. Optionally, click the **Joins** tab in the **Standard Connections** interface to view a diagram of your standard connection.
+
 ## Use your standard connections in Tableau
 
 To use a standard connection in Tableau, complete the following steps:
