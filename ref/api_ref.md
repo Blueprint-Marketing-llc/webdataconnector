@@ -594,6 +594,7 @@ title: WDC API Reference
                         <div class="lead">
                             <p>The metadata for standard connections, or predefined joins.</p>
                         </div>
+                        <p><b>Note</b>: This feature is only supported in version 2.1 of the WDC.</p>
                     </div>
 					<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
                         <a name="webdataconnectorapi.standardconnection.alias" class="tsd-anchor"></a>
@@ -997,6 +998,7 @@ var standardConnection = {
                             <div class="lead">
                                 <p>The build number for Tableau Desktop.</p>
                             </div>
+                            <p><b>Note</b>: This feature is only supported in version 2.1 of the WDC.</p>
                             <div>
                                 <p>For example, you might see a build number like this:</p>
                                 <code>10100.16.1005.2001</code>
@@ -1011,6 +1013,7 @@ var standardConnection = {
                             <div class="lead">
                                 <p>The edition of Tableau Desktop.</p>
                             </div>
+                            <p><b>Note</b>: This feature is only supported in version 2.1 of the WDC.</p>
                             <div>
                                 <p>Either <code>pro</code>, <code>standard</code>, or
                                 <code>public</code>.</p>
@@ -1025,6 +1028,7 @@ var standardConnection = {
                             <div class="lead">
                                 <p>The operating system on which Tableau Destkop is installed.</p>
                             </div>
+                            <p><b>Note</b>: This feature is only supported in version 2.1 of the WDC.</p>
                             <div>
                                 <p>Either <code>win</code> for Windows or <code>mac</code> for MacOS.</p>
                             </div>
@@ -1038,6 +1042,7 @@ var standardConnection = {
                             <div class="lead">
                                 <p>The version of Tableau Desktop.</p>
                             </div>
+                            <p><b>Note</b>: This feature is only supported in version 2.1 of the WDC.</p>
                             <div>
                                 <p>Tableau uses semantic versioning, which means that
                                 the version matches the following syntax:</p>
@@ -1196,6 +1201,7 @@ var standardConnection = {
                                         <p>Displays a progress message to the user.</p>
                                     </div>
                                 </div>
+                                <p><b>Note</b>: This feature is only supported in version 2.1 of the WDC.</p>
                                 <h4 class="tsd-parameters-title">Parameters</h4>
                                 <ul class="tsd-parameters">
                                     <li>
