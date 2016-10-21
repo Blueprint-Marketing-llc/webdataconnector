@@ -7,13 +7,13 @@ Every web data connector must include a reference to the Tableau WDC
 library. You can get the latest version of the WDC here:
 
 ```
-https://connectors.tableau.com/libs/tableauwdc-2.1.latest.js
+https://connectors.tableau.com/libs/tableauwdc-2.0.latest.js
 ```
 
 There is also a minified version available:
 
 ```
-https://connectors.tableau.com/libs/tableauwdc-2.1.latest.min.js
+https://connectors.tableau.com/libs/tableauwdc-2.0.latest.min.js
 ```
 
 The above URLs are the recommended ways of linking to the Tableau WDC and guarantee that
@@ -22,8 +22,8 @@ If you prefer to opt out of receiving automatic patch versions, you can link dir
 to a specific patch version, for example:
 
 ```
-https://connectors.tableau.com/libs/tableauwdc-2.1.1.js
-https://connectors.tableau.com/libs/tableauwdc-2.1.1.min.js
+https://connectors.tableau.com/libs/tableauwdc-2.0.1.js
+https://connectors.tableau.com/libs/tableauwdc-2.0.1.min.js
 ```
 
 
@@ -34,7 +34,7 @@ The following table displays which versions of the WDC are compatible with Table
 
 |WDC version           |Tableau version   |
 |----------------------|-----------------|
-|`tableauwdc-2.1.0`    |10.0 or later|
+|`tableauwdc-2.0.0`    |10.0 or later|
 |`tableauwdc-1.1.1`    |9.3 <br />9.2.4 or later <br />9.1.6 or later|
 |`tableauwdc-1.1.0`    |9.2.0 through 9.2.3 <br />9.1.0 through 9.1.5|
 
