@@ -1083,7 +1083,7 @@ var standardConnection = {
                             <li class="tsd-description">
                                 <div class="tsd-comment tsd-typography">
                                     <div class="lead">
-                                        <p>Called whenever the connector has invalid credentials and needs to reauthenticate its user.  This method only has function during the gather data phase.</p>
+                                        <p>Called whenever the connector has invalid credentials and needs to reauthenticate its user.  This method must be called from the init method during the gather data phase.</p>
                                     </div>
                                 </div>
                                 <h4 class="tsd-parameters-title">Parameters</h4>
