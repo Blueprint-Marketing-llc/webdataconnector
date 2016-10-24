@@ -68,7 +68,7 @@ The auth phase will be displayed by Tableau in two scenarios:
     This method is provided so that the developer can explicitly tell Tableau the current user is un-authenticated.
     For example, this can be helpful when working with OAuth.  In some scenarios, the access token used to get resources
     from an API can expire or be revoked.  In that scenario, before fetching data, the WDC would want to call this method
-    in order to re-authenticate the user.  For more information, see the **OAuthProxyExample** connector included in the SDK.
+    in order to re-authenticate the user.  For more information, see the **OAuthProxyExample** connector included in the SDK.  **IMPORTANT:** This function must be called from the init method during the gather data phase.
     
 In the auth phase of the WDC, any changes to properties other than tableau.password and tableau.username will
 be ignored.  Thus, it is a best practice to only show the UI that is necessary to re-authenticate the user,
