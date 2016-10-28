@@ -20,8 +20,8 @@ Once you have a working connector for multiple tables, complete the following st
 
 ## Create the connection objects
 
-For every two tables in a web data connector that you want to join, you need to create a connection object. A connection
-object is a JavaScript object that specifies the two tables that you want to join, the columns that you want to use
+For every set of tables in a web data connector that you want to join, you need to create a connection object. A connection
+object is a JavaScript object that specifies the tables that you want to join, the columns that you want to use
 to join the tables, and the type of join.
 
 
@@ -58,7 +58,7 @@ The connection object includes the following properties:
 * `alias`. This is the name of the connection as it appears in Tableau Desktop.
 
 * `tables`. The tables that you want to join. For example, in the above connection object there is a table named `magPlace` and a
-  table named `timeUrl`.
+  table named `timeUrl. It is important to note that the first table in the array must always be the left-most table in the join.
 
 * `joins`. An array which includes the following properties:
   * `left` and `right`. Defines which tables you want to appear on the left and right side in Tableau Desktop. The order
@@ -72,7 +72,10 @@ The connection object includes the following properties:
 
 ## Pass connection objects to the schemaCallback function
 
-The `schemaCallback` function takes an array of connection objects as a second parameter. For example, to pass the
+The `schemaCallback` function takes an array of connection objects as a second parameter. (For connectors that do not
+include standard connections, you do not need to include this second parameter.)
+
+For example, to pass the
 sample connection object created above to Tableau, enter the following parameters:
 
 ```js
@@ -92,6 +95,8 @@ To use a standard connection in the simulator, complete the following steps:
 1. Click the **Show Advanced** button to display the **Standard Connections** interface.
 
 1. Click the **Start Interactive Phase** button.
+
+1. Interact with your connector until you are returned to the simulator.
 
 1. Optionally, click the **Joins** tab in the **Standard Connections** interface to view a diagram of your standard connection.
 

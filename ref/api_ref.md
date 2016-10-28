@@ -636,7 +636,7 @@ title: WDC API Reference
                         <div class="tsd-signature tsd-kind-icon">joins: array</div>
                         <div class="tsd-comment tsd-typography">
                             <div class="lead">
-                                <p>An array of join objects which defines the order of the tables and the join type. Each join object takes the following form:</p>
+                                <p>An array of join objects which specifies which objects to join and with which join type. Each join object takes the following form:</p>
 <pre>
 "joins": [{
     "left": {
@@ -1198,7 +1198,9 @@ var standardConnection = {
                             <li class="tsd-description">
                                 <div class="tsd-comment tsd-typography">
                                     <div class="lead">
-                                        <p>Displays a progress message to the user.</p>
+                                        <p>Displays a progress message to the user while an extract is being created.
+                                        For example, if you switch from the Data Source pane to a sheet, a dialog
+                                        appears that displays the progress message.</p>
                                     </div>
                                 </div>
                                 <p><b>Note</b>: This feature is only supported in version 2.1 of the WDC.</p>
