@@ -46,7 +46,7 @@ You're going to need a couple of things before we get started. Make sure you hav
 1. Install dependencies with `npm`:
 
    ```
-   npm install
+   npm install --production
    ```
 
    **Note**: You must run the command with administrator or sudo privileges.
