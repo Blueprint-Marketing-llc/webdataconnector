@@ -89,7 +89,7 @@ title: WDC API Reference
                             <a href="api_ref.html#webdataconnectorapi.tableinfo-1.columns" class="tsd-kind-icon">columns</a>
                         </li>
                         <li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-                            <a href="api_ref.html#webdataconnectorapi.tableinfo-1.defaultalias" class="tsd-kind-icon">defaultAlias</a>
+                            <a href="api_ref.html#webdataconnectorapi.tableinfo-1.alias" class="tsd-kind-icon">alias</a>
                         </li>
                         <li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
                             <a href="api_ref.html#webdataconnectorapi.tableinfo-1.description-1" class="tsd-kind-icon">description</a>
@@ -760,9 +760,9 @@ var standardConnection = {
                         </div>
                     </section>
                     <section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-not-exported">
-                        <a name="webdataconnectorapi.tableinfo-1.defaultalias" class="tsd-anchor"></a>
-                        <h3>defaultAlias</h3>
-                        <div class="tsd-signature tsd-kind-icon">defaultAlias: string</div>
+                        <a name="webdataconnectorapi.tableinfo-1.alias" class="tsd-anchor"></a>
+                        <h3>alias</h3>
+                        <div class="tsd-signature tsd-kind-icon">alias: string</div>
                         <div class="tsd-comment tsd-typography">
                             <div class="lead">
                                 <p>(Optional) An alias for this table to be shown to the user. This alias is editable by the user and must be unique across all tables used in a join. If this property is omitted, the table id will be used.</p>
