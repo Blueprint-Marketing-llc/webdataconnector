@@ -449,6 +449,15 @@
         "source_code": "https://github.com/runonthespot/PubChemWDC"
     },
     {
+        "name": "Spotify: My Library",
+        "url": "http://spotify-wdc.azurewebsites.net/",
+        "author": "Samm Desmond, Brendan Lee",
+        "github_username": "sdesmond46, lbrendanl",
+        "tags": ["v_2.1"],
+        "description": "Uses new 2.1 WDC features and brings back information about your Spotify music library. ",
+        "source_code": "https://github.com/lbrendanl/SpotifyWDC"
+    },
+    {
         "name": "SDMX-JSON WDC",
         "url": "https://saviohenriques.github.io/sdmxjsonwdc",
         "author": "Savio Henriques",
@@ -456,6 +465,15 @@
         "tags": ["v_2.0"],
         "description": "Connects to OECD Air Emissions data http://stats.oecd.org/viewhtml.aspx?datasetcode=AIR_EMISSIONS",
         "source_code": "https://github.com/saviohenriques/sdmxjsonwdc"
+    },
+    {
+        "name": "The Movie DB",
+        "url": "https://lbrendanl.github.io/tvWDC/tv.html",
+        "author": "Brendan Lee",
+        "github_username": "lbrendanl",
+        "tags": ["v_2.0"],
+        "description": "Brings back data about popular tv shows.",
+        "source_code": "https://github.com/lbrendanl/tvWDC"
     },
     {
         "name": "Random Data Generator",
@@ -476,13 +494,13 @@
         "source_code": "https://github.com/stephdietzel/ConnectorOfIceAndFire"
     },
     {
-    "name": "Instagram Connector",
-    "url": "https://illonage.github.io/",
-    "author": "Geraldine Zanolli",
-    "github_username": "illonage",
-    "tags": ["v_2.0"],
-    "description": "A Tableau Web Data Connector for Instagram",
-    "source_code": ""
+        "name": "Instagram Connector",
+        "url": "https://illonage.github.io/",
+        "author": "Geraldine Zanolli",
+        "github_username": "illonage",
+        "tags": ["v_2.0"],
+        "description": "A Tableau Web Data Connector for Instagram",
+        "source_code": ""
     },
     {
         "name": "Spotify Connector",
